@@ -1,0 +1,44 @@
+body {
+    background-color: slategray;
+}
+
+.page-container {
+    display: grid;
+}
+
+header {
+    
+    display: grid;
+    grid-template-columns: 40px 100px auto 25%  30% ;
+    flex-flow: row;
+    list-style: none;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+}
+header > h1 {
+    grid-column: 4/5;
+    justify-self: left;
+}
+
+header .links-container {
+    grid-column: 6/7;
+    display: flex;
+    flex-flow: row;
+}
+header a {
+    font-size: 20px;
+    display: block;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: fantasy;
+}
+header a:hover {
+    border-radius: 20px;
+    color: #1565C0;
+}
+.title > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:  20px 0;
+}
